@@ -4,4 +4,4 @@ Grasshopper is a serious sport that blends the best features of cricket, tennis,
 
 - [Read the official rules of Grasshopper](RULES.md)
 - [A record of injuries](INJURIES.md) for review by the safety committee
-- [Track the global Grasshopper stats](STATS.CSV)
+- [Track the global Grasshopper stats](STATS.csv)
