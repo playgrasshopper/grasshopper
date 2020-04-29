@@ -1,3 +1,4 @@
+![Playing the game](gameplay.jpg "Gameplay")
 # The rules of Grasshopper
 
 Run between two tripods made of sticks more times than your friends! 
