@@ -3,13 +3,13 @@
 
 Run between two tripods made of sticks more times than your friends! 
 
-Play starts with the Roly Poly rolling a soccer ball to the Kickbatter. Before the ball is kicked the Kickbatter must throw a frisbee as far as possible in any direction. The Kickbatter then kicks the ball as far as possible in any direction. Once these objects have been dispatched... run! The Kickbatter runs as fast as possible between the tripods until the Fielders are able to assemble all the objects at one tripod. This completes one Turn. Now the Roly Poly is the new Kickbatter, and a Fielder becomes the new Roly Poly. A round consists of one $$$$$$$ per player. Typical games are played to 3 rounds, the player with the most points wins!!
+Play starts with the Roly Poly rolling a soccer ball to the Kickbatter. Before the ball is kicked the Kickbatter must throw a frisbee as far as possible in any direction. The Kickbatter then kicks the ball as far as possible in any direction. Once these objects have been dispatched... run! The Kickbatter runs as fast as possible between the tripods until the Fielders are able to assemble all the objects at one tripod. This completes one Hop. Now the Roly Poly is the new Kickbatter, and a Fielder becomes the new Roly Poly. A round consists of one Hop per player. Typical games are played to 3 rounds, the player with the most points wins!!
 
 ## Positions
-Roly Poly - Rolls the soccer ball to the batsman. Play starts when the Roly Poly begins to approach the batsman.
-Kickbatter - This is the only player on offense. The Kickbatter makes the first throw of the frisbee and kicks the soccer ball. Also summons magic.
-Fielders - These players retrieve the soccer ball(s) and frisbee. Their goal is to return all items to the same tripod. The Roly Poly becomes a Fielder immediately upon rolling the soccer ball.
-Dogs - Occasionally get in the way. This is fine.
+**Roly Poly** - Rolls the soccer ball to the batsman. Play starts when the Roly Poly begins to approach the batsman.  
+**Kickbatter** - This is the only player on offense. The Kickbatter makes the first throw of the frisbee and kicks the soccer ball. Also summons magic.  
+**Fielders** - These players retrieve the soccer ball(s) and frisbee. Their goal is to return all items to the same tripod. The Roly Poly becomes a Fielder immediately upon rolling the soccer ball.  
+**Dogs** - Occasionally get in the way. This is fine.
 
 ## The field
 The game is focused around two tripods made of sticks set up 15 paces apart. Between the two tripods there is the Throw Line. The Roly Poly must release the soccer before reaching the Throw Line. The Throw Line is located 10 paces away from the Kickbatter's tripod.
