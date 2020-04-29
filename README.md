@@ -1,3 +1,4 @@
+![Playing the game](gameplay.jpg "Gameplay")
 # Grasshopper 🦗
 
 Grasshopper is a serious sport that blends the best features of cricket, tennis, ultimate frisbee, soccer, baseball, and Super Mario Kart. It is played without teams, and scores are tracked from the point where a player starts playing Grasshopper until they die.
