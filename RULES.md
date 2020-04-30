@@ -11,7 +11,7 @@ Play starts with the Roly Poly rolling a soccer ball to the Bashbish. Before the
 - **Roly Poly** - Rolls the soccer ball to the batsman. Play starts when the Roly Poly begins to approach the batsman.
 - **Bashbish** - This is the only player on offense. The Bashbish makes the first throw of the frisbee and kicks the soccer ball. Also summons magic.
 - **Fielders** - These players retrieve the soccer ball(s) and frisbee. Their goal is to return all items to the same tripod. The Roly Poly becomes a Fielder immediately upon rolling the soccer ball. Fielders can play in one of three zones, which are as follows:
-  - **The Zola** - behind the batter
+  - **The Zola** - behind the Bashbish
   - **The Beanie** - behind and to the left of the Rolly Polly
   - **The Faery** - behind and to the right of the Rolly Polly
 - **Dogs** - Occasionally get in the way. This is fine.
