@@ -16,11 +16,12 @@ const computeScores = (data) => {
         players.push(name)
         const foundPlayer = allPlayers.find((obj) => obj.name === name)
         if (!foundPlayer) {
-          allPlayers.push({ name: name, score: 0 })
+          allPlayers.push({ name: name, score: 0, games: 0 })
         }
         allPlayers.forEach((player, key) => {
           if (player.name === name) {
             allPlayers[key].score += parseInt(row[name], 10)
+            allPlayers[key].games++
           }
         })
       }
@@ -46,8 +47,8 @@ const writeScores = (leagues, allPlayers) => {
   const lines = []
   lines.push('## Lifetime scores')
   lines.push('')
-  lines.push('Name | Score')
-  lines.push('-|-')
+  lines.push('Name | Score | Games played | Magic index')
+  lines.push('-|-|-|')
   allPlayers.sort((a, b) => {
     if (a.score > b.score) {
       return -1
@@ -57,7 +58,11 @@ const writeScores = (leagues, allPlayers) => {
     }
   })
   allPlayers.forEach((player) => {
-    lines.push(`${player.name} | ${player.score}`)
+    lines.push(
+      `${player.name} | ${player.score} | ${player.games} | ${Math.round(
+        player.score / player.games
+      )}`
+    )
   })
   lines.push('')
   Object.keys(leagues).forEach((key) => {
