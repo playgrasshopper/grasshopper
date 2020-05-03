@@ -1,13 +1,7 @@
 const fs = require('fs')
 const csv = require('csv-parser')
-const md5 = require('md5')
-const Moniker = require('moniker')
-const leagueName = Moniker.generator([Moniker.adjective, Moniker.noun], {
-  glue: ' ',
-})
 
 const computeScores = (data) => {
-  const leagues = {}
   const allPlayers = []
   data.forEach((row) => {
     const players = []
@@ -26,29 +20,17 @@ const computeScores = (data) => {
         })
       }
     })
-    const leagueHash = md5(players.join(''))
-    if (typeof leagues[leagueHash] === 'undefined') {
-      let name = leagueName.choose()
-      name = name.charAt(0).toUpperCase() + name.slice(1)
-      leagues[leagueHash] = {
-        players: players,
-        name: `The ${name.replace('ss', 's')}s`,
-        games: [],
-      }
-    }
-    leagues[leagueHash].games.push(row)
   })
 
-  writeScores(leagues, allPlayers)
+  writeScores(allPlayers)
 }
 
-const writeScores = (leagues, allPlayers) => {
-  console.log(allPlayers)
+const writeScores = (allPlayers) => {
   const lines = []
   lines.push('## Lifetime scores')
   lines.push('')
   lines.push('Name | Score | Games played | Magic index')
-  lines.push('-|-|-|')
+  lines.push('-|-|-|-')
   allPlayers.sort((a, b) => {
     if (a.score > b.score) {
       return -1
@@ -65,24 +47,8 @@ const writeScores = (leagues, allPlayers) => {
     )
   })
   lines.push('')
-  Object.keys(leagues).forEach((key) => {
-    const league = leagues[key]
-    if (league.players.length === 0) {
-      return
-    }
-    lines.push(`## ${league.name}`)
-    lines.push('')
-    league.players.forEach((player) => {
-      lines.push(` - ${player}`)
-    })
-    lines.push('')
-    lines.push('### Standing')
 
-    lines.push('')
-    lines.push('### Games')
-  })
-
-  fs.writeFileSync('../LEAGUES.md', lines.join('\n'))
+  fs.writeFileSync('../STANDING.md', lines.join('\n'))
 }
 
 const results = []
