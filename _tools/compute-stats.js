@@ -27,7 +27,7 @@ const computeScores = (data) => {
 
 const writeScores = (allPlayers) => {
   const lines = []
-  lines.push('## Lifetime scores')
+  lines.push('## All player standing')
   lines.push('')
   lines.push('Name | Score | Games played | Magic index')
   lines.push('-|-|-|-')
