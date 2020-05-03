@@ -45,6 +45,7 @@ const writeScores = (leagues, allPlayers) => {
   console.log(allPlayers)
   const lines = []
   lines.push('## Lifetime scores')
+  lines.push('')
   lines.push('Name | Score')
   lines.push('-|-')
   allPlayers.sort((a, b) => {
