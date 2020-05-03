@@ -1,14 +1,14 @@
 ## Lifetime scores
 
-Name | Score
--|-
-Andy | 66
-Katie | 51
-Emily | 49
-Kevin | 48
-Brooke | 32
+Name | Score | Games played | Magic index
+-|-|-|
+Andy | 66 | 3 | 22
+Katie | 51 | 3 | 17
+Emily | 49 | 3 | 16
+Kevin | 48 | 3 | 16
+Brooke | 32 | 2 | 16
 
-## The Chief meals
+## The Marked readings
 
  - Andy
  - Kevin
@@ -19,7 +19,7 @@ Brooke | 32
 ### Standing
 
 ### Games
-## The Instinctive fogs
+## The Omniscient pails
 
  - Andy
  - Kevin
