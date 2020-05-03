@@ -14,12 +14,9 @@ jobs:
           ref: master
           path: ./_repo
 
-      - name: Build API files
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+      - name: Build stats file
         run: |
-          cd _repo/_tools/ && yarn install && cd .. && node _tools/compute-stats.js
+          cd _repo/_tools/ && yarn install && node compute-stats.js
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
