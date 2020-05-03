@@ -31,7 +31,7 @@ const computeScores = (data) => {
       name = name.charAt(0).toUpperCase() + name.slice(1)
       leagues[leagueHash] = {
         players: players,
-        name: `The ${name}s`,
+        name: `The ${name.replace('ss', 's')}s`,
         games: [],
       }
     }
