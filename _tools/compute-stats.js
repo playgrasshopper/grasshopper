@@ -41,9 +41,9 @@ const writeScores = (allPlayers) => {
   })
   allPlayers.forEach((player) => {
     lines.push(
-      `${player.name} | ${player.score} | ${player.games} | ${Math.round(
-        player.score / player.games
-      )}`
+      `${player.name} | ${player.score} | ${player.games} | ${
+        Math.round((player.score / player.games) * 100) / 100
+      }`
     )
   })
   lines.push('')
