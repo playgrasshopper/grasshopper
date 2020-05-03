@@ -69,8 +69,10 @@ const writeScores = (leagues, allPlayers) => {
     league.players.forEach((player) => {
       lines.push(` - ${player}`)
     })
+    lines.push('')
     lines.push('### Standing')
 
+    lines.push('')
     lines.push('### Games')
   })
 
