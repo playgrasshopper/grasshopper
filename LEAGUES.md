@@ -8,7 +8,7 @@ Emily | 49
 Kevin | 48
 Brooke | 32
 
-## The Encouraging plantss
+## The Chief meals
 
  - Andy
  - Kevin
@@ -19,7 +19,7 @@ Brooke | 32
 ### Standing
 
 ### Games
-## The Receptive brakes
+## The Instinctive fogs
 
  - Andy
  - Kevin
