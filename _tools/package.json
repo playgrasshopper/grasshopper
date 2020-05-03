@@ -1,0 +1,11 @@
+{
+  "name": "grasshopper-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "md5": "^2.2.1",
+    "moniker": "^0.1.2"
+  }
+}

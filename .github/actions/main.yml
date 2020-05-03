@@ -1,0 +1,30 @@
+name: Generate scores
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          path: ./_repo
+
+      - name: Build API files
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        run: |
+          cd _tools/ && yarn install && cd .. && node _tools/compute-stats.js
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_message: Update scores
+          repository: ./_repo
+          file_pattern: ./**
+          commit_author: The Grasshoppbot <actions@github.com>
