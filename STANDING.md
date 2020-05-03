@@ -1,4 +1,4 @@
-## Lifetime scores
+## All player standing
 
 Name | Score | Games played | Magic index
 -|-|-|-
