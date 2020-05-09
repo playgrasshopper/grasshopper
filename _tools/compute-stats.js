@@ -40,11 +40,13 @@ const writeScores = (allPlayers) => {
       return 1
     }
   })
-  allPlayers.forEach((player) => {
+  allPlayers.forEach((player, index) => {
     lines.push(
       `${player.name} | ${player.score} | ${
         Math.round(player.games * 100) / 100
-      } | ${Math.round((player.score / player.games) * 100) / 100}`
+      } | ${Math.round((player.score / player.games) * 100) / 100}${
+        index === 0 ? ' 🧙‍♂️' : ''
+      }${index === allPlayers.length - 1 ? ' 🙅' : ''}`
     )
   })
   lines.push('')
