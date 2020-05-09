@@ -23,12 +23,18 @@ The game is focused around two tripods made of sticks set up 15 paces apart. Bet
 A diagram of the various portions of the field is below.
 
 ## Equipment
+
 One soccer ball and one frisbee are standardz with one additional soccer ball for magic. Tripods are constructed from sticks and vines. Music speaker also ideal.
 
 ## Scoring
-One point is scored per tripod visited before the tripods "die." Tripod death occurs when all objects have been returned to a tripod, and both tripods have at least one object.  
-  
-Once all hops and rounds are finished, scores are added together. Highest score wins the game!
+
+One point is scored per tripod visited before the tripods "die." Tripod death occurs when all objects have been returned to a tripod, and both tripods have at least one object.
+
+A game is finished when the players are exhausted, everyone is hungry, or someone is seriously injured.
+
+For the purposes of calculating the _magic index_, a "game" is considered 3 rounds, and any game with over or under 3 rounds is calculated by divding that game by three.
+
+At the declared end of the game, scores are added together. Highest score wins the game!
 
 ## Magic
 
@@ -45,6 +51,7 @@ The following magic incantations can be cast at any point during play by the bas
 - **Multiball** - The bashbish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. That ball is now required to reach the same tripod as the main soccer ball and frisbee before the batter is considered out.
 
 ## Details
-- Objects must remain in the square around the triood. Players may not intentionally remove them.  
+
+- Objects must remain in the square around the triood. Players may not intentionally remove them.
 - When ball is bowled outside tripod boundary, the bashbish can call a re-bowl, kick it and run as normal, or let it pass and simply begin running.
-- 
+-

@@ -1,6 +1,8 @@
 const fs = require('fs')
 const csv = require('csv-parser')
 
+const statsPreamble = fs.readFileSync('./stats-preamble.md')
+
 const computeScores = (data) => {
   const allPlayers = []
   data.forEach((row) => {
@@ -15,7 +17,7 @@ const computeScores = (data) => {
         allPlayers.forEach((player, key) => {
           if (player.name === name) {
             allPlayers[key].score += parseInt(row[name], 10)
-            allPlayers[key].games++
+            allPlayers[key].games += row['_rounds'] / 3
           }
         })
       }
@@ -26,9 +28,7 @@ const computeScores = (data) => {
 }
 
 const writeScores = (allPlayers) => {
-  const lines = []
-  lines.push('## All player standing')
-  lines.push('')
+  const lines = [statsPreamble.toString()]
   lines.push('Name | Score | Games played | Magic index')
   lines.push('-|-|-|-')
   allPlayers.sort((a, b) => {
@@ -41,9 +41,9 @@ const writeScores = (allPlayers) => {
   })
   allPlayers.forEach((player) => {
     lines.push(
-      `${player.name} | ${player.score} | ${player.games} | ${
-        Math.round((player.score / player.games) * 100) / 100
-      }`
+      `${player.name} | ${player.score} | ${
+        Math.round(player.games * 100) / 100
+      } | ${Math.round((player.score / player.games) * 100) / 100}`
     )
   })
   lines.push('')
