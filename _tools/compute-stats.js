@@ -50,7 +50,7 @@ const writeScores = (allPlayers) => {
   lines.push('')
   lines.push('## Lifetime standing')
   lines.push('Name | Lifetime Score | Games played ')
-  lines.push('-|-|-|-')
+  lines.push('-|-|-')
   allPlayers.sort((a, b) => {
     if (a.score > b.score) {
       return -1
@@ -63,7 +63,7 @@ const writeScores = (allPlayers) => {
     lines.push(
       `${player.name} | ${player.score} | ${
         Math.round(player.games * 100) / 100
-      } `
+      }`
     )
   })
 
