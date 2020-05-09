@@ -19,10 +19,10 @@ Diego | 41 | 1.33 | 30.75
 
 ## Lifetime standing
 Name | Lifetime Score | Games played 
--|-|-|-
-Andy | 94 | 4.67 
-Katie | 77 | 4.67 
-Kevin | 71 | 4.67 
-Emily | 61 | 4.67 
-Diego | 41 | 1.33 
-Brooke | 32 | 2 
+-|-|-
+Andy | 94 | 4.67
+Katie | 77 | 4.67
+Kevin | 71 | 4.67
+Emily | 61 | 4.67
+Diego | 41 | 1.33
+Brooke | 32 | 2
