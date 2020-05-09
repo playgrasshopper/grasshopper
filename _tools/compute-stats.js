@@ -44,9 +44,7 @@ const writeScores = (allPlayers) => {
     lines.push(
       `${player.name} | ${player.score} | ${
         Math.round(player.games * 100) / 100
-      } | ${Math.round((player.score / player.games) * 100) / 100}${
-        index === 0 ? ' 🧙‍♂️' : ''
-      }${index === allPlayers.length - 1 ? ' 🙅' : ''}`
+      } | ${Math.round((player.score / player.games) * 100) / 100}`
     )
   })
   lines.push('')
