@@ -6,5 +6,3 @@ Player standings are based on their mean score per game. For each player we:
 - **Total games** - We add up all the games.
 - **Total score** - We add up all the scores across games.
 - **Calcualte Magic Index** - The magic index is the total score divided by the player's summed total game equivalents. I.e. we do a mean.
-
-## Standings

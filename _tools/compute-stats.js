@@ -29,7 +29,27 @@ const computeScores = (data) => {
 
 const writeScores = (allPlayers) => {
   const lines = [statsPreamble.toString()]
-  lines.push('Name | Score | Games played | Magic index')
+  lines.push('## Magic order')
+  lines.push('Name | Lifetime Score | Games played | Magic index')
+  lines.push('-|-|-|-')
+  allPlayers.sort((a, b) => {
+    if (a.score / a.games < b.score / b.games) {
+      return -1
+    }
+    if (a.score / a.games < b.score / b.games) {
+      return 1
+    }
+  })
+  allPlayers.forEach((player) => {
+    lines.push(
+      `${player.name} | ${player.score} | ${
+        Math.round(player.games * 100) / 100
+      } | ${Math.round((player.score / player.games) * 100) / 100}`
+    )
+  })
+  lines.push('')
+  lines.push('## Lifetime standing')
+  lines.push('Name | Lifetime Score | Games played ')
   lines.push('-|-|-|-')
   allPlayers.sort((a, b) => {
     if (a.score > b.score) {
@@ -43,10 +63,9 @@ const writeScores = (allPlayers) => {
     lines.push(
       `${player.name} | ${player.score} | ${
         Math.round(player.games * 100) / 100
-      } | ${Math.round((player.score / player.games) * 100) / 100}`
+      } `
     )
   })
-  lines.push('')
 
   fs.writeFileSync('../STANDING.md', lines.join('\n'))
 }
