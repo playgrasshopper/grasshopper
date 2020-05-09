@@ -7,7 +7,7 @@ Player standings are based on their mean score per game. For each player we:
 - **Total score** - We add up all the scores across games.
 - **Calcualte Magic Index** - The magic index is the total score divided by the player's summed total game equivalents. I.e. we do a mean.
 
-## Magic order
+## Magic order 🧙
 Name | Lifetime Score | Games played | Magic index
 -|-|-|-
 Emily | 61 | 4.67 | 13.07
@@ -17,7 +17,7 @@ Katie | 77 | 4.67 | 16.5
 Andy | 94 | 4.67 | 20.14
 Diego | 41 | 1.33 | 30.75
 
-## Lifetime standing
+## Lifetime standing 🧞
 Name | Lifetime Score | Games played 
 -|-|-
 Andy | 94 | 4.67
