@@ -29,7 +29,7 @@ const computeScores = (data) => {
 
 const writeScores = (allPlayers) => {
   const lines = [statsPreamble.toString()]
-  lines.push('## Magic order')
+  lines.push('## Magic order 🧙')
   lines.push('Name | Lifetime Score | Games played | Magic index')
   lines.push('-|-|-|-')
   allPlayers.sort((a, b) => {
@@ -48,7 +48,7 @@ const writeScores = (allPlayers) => {
     )
   })
   lines.push('')
-  lines.push('## Lifetime standing')
+  lines.push('## Lifetime standing 🧞')
   lines.push('Name | Lifetime Score | Games played ')
   lines.push('-|-|-')
   allPlayers.sort((a, b) => {
