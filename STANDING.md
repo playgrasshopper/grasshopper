@@ -10,19 +10,19 @@ Player standings are based on their mean score per game. For each player we:
 ## Magic order 🧙
 Name | Lifetime Score | Games played | Magic index
 -|-|-|-
-Emily | 84 | 5.67 | 14.82
-Kevin | 95 | 5.67 | 16.76
-Andy | 111 | 5.67 | 19.59
-Katie | 111 | 5.67 | 19.59
-Brooke | 67 | 3 | 22.33
-Diego | 41 | 1.33 | 30.75
+Emily | 109 | 6.67 | 16.35
+Kevin | 121 | 6.67 | 18.15
+Katie | 122 | 6.67 | 18.3
+Brooke | 82 | 4 | 20.5
+Diego | 48 | 2.33 | 20.57
+Andy | 141 | 6.67 | 21.15
 
 ## Lifetime standing 🧞
 Name | Lifetime Score | Games played 
 -|-|-
-Andy | 111 | 5.67
-Katie | 111 | 5.67
-Kevin | 95 | 5.67
-Emily | 84 | 5.67
-Brooke | 67 | 3
-Diego | 41 | 1.33
+Andy | 141 | 6.67
+Katie | 122 | 6.67
+Kevin | 121 | 6.67
+Emily | 109 | 6.67
+Brooke | 82 | 4
+Diego | 48 | 2.33
