@@ -6,9 +6,15 @@ Run between two tripods made of sticks more times than your friends!
 
 Play starts with the Roly Poly rolling a soccer ball to the Bashbish. Before the ball is kicked the Bashbish must throw a frisbee as far as possible in any direction. The Bashbish then kicks the ball as far as possible in any direction. Once these objects have been dispatched... run! The Bashbish runs as fast as possible between the tripods until the Fielders are able to assemble at least one object at each tripod. This completes one Hop. Now the Roly Poly is the new Bashbish, and a Fielder becomes the new Roly Poly. A round consists of one Hop per player. Typical games are played to 3 rounds, the player with the most points wins!
 
+### Defense
+
+The bash bish may at any time interfere with the soccerball. They may only touch the ball once after the ball has been touched by a defender. The Bash Bish May leave the barley to do so. 
+
 ### Object safety
 
 An out is  achieved when the frisbee and soccer ball are under both tripods, where the ball is under one tripod, and the frisbee is is under the other. If he multiball has been played, an out is reached by affing the multiball to either tripod.
+
+If an object is in control when it is placed under a tripod, it is considered "safe" and the bash bish can not interfere with it.
 
 If one object is safe at a tripod and another object is added to the tripod, the incoming item is not considered safe until the original item is removed.
 
