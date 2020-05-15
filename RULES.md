@@ -62,6 +62,8 @@ The following magic incantations can be cast at any point during play by the bas
 - **Grapevine** - All players who are not the bashbish may only move by doing a grapevine dance (passing the feet side to side, one in front of the other)
 - **Multiball** - The bashbish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. That ball is now required to reach the same tripod as the main soccer ball and frisbee before the batter is considered out.
 
+#### Rare Magic
+- **Blue Light Special** - If a shopping cart is available, you may place it near the barley at an equilateral triangle 5 meters from the middle of the barley, with the corners of the triangle being the tripods. If Blue Light Special is called, the defense can not touch the soccer ball, and must instead push the cart to the soccer ball, place it in the the cart, and then roll the cart to a tripod.
 ## Details
 
 - Objects must remain in the square around the triood. Players may not intentionally remove them.
