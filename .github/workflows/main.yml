@@ -14,14 +14,20 @@ jobs:
           ref: master
           path: ./_repo
 
-      - name: Build stats file
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./_site
+
+      - name: Build site
         run: |
-          cd _repo/_tools/ && yarn install && node compute-stats.js
+          cd _repo/ && yarn install && gatsby build && cp ./public/* ../_site/
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
-          commit_message: Update scores
-          repository: ./_repo
+          commit_message: Update website
+          repository: ./_site
           file_pattern: ./**
           commit_author: The Grasshoppbot <actions@github.com>
