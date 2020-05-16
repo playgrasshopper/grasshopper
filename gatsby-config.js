@@ -14,6 +14,42 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.AIRTABLE_KEY,
+        concurrency: 5,
+        tables: [
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Players`,
+            tableLinks: [`League`],
+          },
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Games`,
+            tableLinks: [`Game League`, `Game Scores`, `Game Hops`],
+          },
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Leagues`,
+          },
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Hops`,
+          },
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Magic`,
+          },
+          {
+            baseId: `apptrTRbAB1QFZe05`,
+            tableName: `Scores`,
+            tableLinks: [`Player`],
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
