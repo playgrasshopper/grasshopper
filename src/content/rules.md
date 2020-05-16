@@ -1,6 +1,7 @@
-![Playing the game](gameplay.jpg "Gameplay")
-
-# The rules of Grasshopper
+---
+path: '/rules'
+title: 'The rules of Grasshopper'
+---
 
 Run between two tripods made of sticks more times than your friends!
 
@@ -8,11 +9,11 @@ Play starts with the Roly Poly rolling a soccer ball to the Bashbish. Before the
 
 ### Defense
 
-The bash bish may at any time interfere with the soccerball. They may only touch the ball once after the ball has been touched by a defender. The Bash Bish May leave the barley to do so. 
+The bash bish may at any time interfere with the soccerball. They may only touch the ball once after the ball has been touched by a defender. The Bash Bish May leave the barley to do so.
 
 ### Object safety
 
-An out is  achieved when the frisbee and soccer ball are under both tripods, where the ball is under one tripod, and the frisbee is is under the other. If he multiball has been played, an out is reached by affing the multiball to either tripod.
+An out is achieved when the frisbee and soccer ball are under both tripods, where the ball is under one tripod, and the frisbee is is under the other. If he multiball has been played, an out is reached by affing the multiball to either tripod.
 
 If an object is in control when it is placed under a tripod, it is considered "safe" and the bash bish can not interfere with it.
 
@@ -63,7 +64,9 @@ The following magic incantations can be cast at any point during play by the bas
 - **Multiball** - The bashbish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. That ball is now required to reach the same tripod as the main soccer ball and frisbee before the batter is considered out.
 
 #### Rare Magic
+
 - **Blue Light Special** - If a shopping cart is available, you may place it near the barley at an equilateral triangle 5 meters from the middle of the barley, with the corners of the triangle being the tripods. If Blue Light Special is called, the defense can not touch the soccer ball, and must instead push the cart to the soccer ball, place it in the the cart, and then roll the cart to a tripod.
+
 ## Details
 
 - Objects must remain in the square around the triood. Players may not intentionally remove them.
