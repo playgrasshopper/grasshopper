@@ -30,7 +30,7 @@ module.exports = {
           {
             baseId: `apptrTRbAB1QFZe05`,
             tableName: `Players`,
-            tableLinks: [`League`],
+            tableLinks: [`League`, `Scores`, `Hops`],
           },
           {
             baseId: `apptrTRbAB1QFZe05`,
@@ -45,6 +45,7 @@ module.exports = {
           {
             baseId: `apptrTRbAB1QFZe05`,
             tableName: `Hops`,
+            tableLinks: [`Player`, `Game`],
           },
           {
             baseId: `apptrTRbAB1QFZe05`,
@@ -53,7 +54,7 @@ module.exports = {
           {
             baseId: `apptrTRbAB1QFZe05`,
             tableName: `Scores`,
-            tableLinks: [`Player`],
+            tableLinks: [`Player`, `Game`],
           },
         ],
       },
@@ -67,7 +68,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`,
+        icon: `src/images/grasshopper.svg`,
       },
     },
   ],

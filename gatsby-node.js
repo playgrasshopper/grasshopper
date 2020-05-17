@@ -4,6 +4,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const contentTemplate = path.resolve(`src/templates/content.js`)
   const playerTemplate = path.resolve(`src/templates/player.js`)
   const leagueTemplate = path.resolve(`src/templates/league.js`)
+  const gameTemplate = path.resolve(`src/templates/game.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(limit: 1000) {
@@ -27,6 +28,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           data {
             League_slug
           }
+        }
+      }
+      games: allAirtable(filter: { table: { eq: "Games" } }) {
+        nodes {
+          recordId
         }
       }
     }
@@ -57,6 +63,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: `/league/${data.League_slug}`,
       component: leagueTemplate,
       context: { slug: data.League_slug },
+    })
+  })
+
+  result.data.games.nodes.forEach(node => {
+    createPage({
+      path: `/game/${node.recordId}`,
+      component: gameTemplate,
+      context: { recordId: node.recordId },
     })
   })
 }
