@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import { TextContainer } from '../components/common/container'
 
 export default ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <Layout title={frontmatter.title}>

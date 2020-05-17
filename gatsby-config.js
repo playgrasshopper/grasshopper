@@ -40,6 +40,7 @@ module.exports = {
           {
             baseId: `apptrTRbAB1QFZe05`,
             tableName: `Leagues`,
+            tableLinks: [`Players`],
           },
           {
             baseId: `apptrTRbAB1QFZe05`,

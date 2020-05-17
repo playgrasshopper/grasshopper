@@ -2,6 +2,8 @@ const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const contentTemplate = path.resolve(`src/templates/content.js`)
+  const playerTemplate = path.resolve(`src/templates/player.js`)
+  const leagueTemplate = path.resolve(`src/templates/league.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(limit: 1000) {
@@ -10,6 +12,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               path
             }
+          }
+        }
+      }
+      players: allAirtable(filter: { table: { eq: "Players" } }) {
+        nodes {
+          data {
+            Player_slug
+          }
+        }
+      }
+      leagues: allAirtable(filter: { table: { eq: "Leagues" } }) {
+        nodes {
+          data {
+            League_slug
           }
         }
       }
@@ -25,6 +41,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.path,
       component: contentTemplate,
       context: {},
+    })
+  })
+
+  result.data.players.nodes.forEach(({ data }) => {
+    createPage({
+      path: `/player/${data.Player_slug}`,
+      component: playerTemplate,
+      context: { slug: data.Player_slug },
+    })
+  })
+
+  result.data.leagues.nodes.forEach(({ data }) => {
+    createPage({
+      path: `/league/${data.League_slug}`,
+      component: leagueTemplate,
+      context: { slug: data.League_slug },
     })
   })
 }

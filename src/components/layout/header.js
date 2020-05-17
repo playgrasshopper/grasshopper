@@ -61,6 +61,9 @@ export default () => {
                 <li>
                   <Link to="/players">Players</Link>
                 </li>
+                <li>
+                  <Link to="/leagues">Leagues</Link>
+                </li>
               </ul>
             </Nav>
           </Box>
