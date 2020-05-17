@@ -42,9 +42,7 @@ export default ({ data }) => {
             </tr>
           </thead>
           <tbody>
-            {game.Game_Scores.length && (
-              <GameScoreTable scores={game.Game_Scores} />
-            )}
+            {game.Game_Scores && <GameScoreTable scores={game.Game_Scores} />}
           </tbody>
         </table>
       </Container>

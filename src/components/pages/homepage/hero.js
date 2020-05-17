@@ -7,7 +7,7 @@ import colors from '../../../style/colors'
 const Hero = styled.div`
   ${bp({
     fontSize: ['2rem', '3rem'],
-    textAlign: ['left', 'right'],
+    textAlign: ['left', 'center'],
     padding: ['2rem 0', '3rem 0'],
   })}
   color: white;
