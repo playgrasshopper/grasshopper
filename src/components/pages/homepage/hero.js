@@ -6,11 +6,13 @@ import colors from '../../../style/colors'
 
 const Hero = styled.div`
   ${bp({
-    fontSize: ['2rem', '3rem'],
+    fontSize: ['2rem', '3.5rem'],
     textAlign: ['left', 'center'],
     padding: ['2rem 0', '3rem 0'],
   })}
   color: white;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
   background: ${colors.logothing.red};
 `
 

@@ -3,6 +3,7 @@ import SEO from './seo'
 import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 import '@reach/skip-nav/styles.css'
 import Header from './header'
+import '../../style/global.css'
 
 export default ({ title, children }) => (
   <>

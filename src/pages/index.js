@@ -1,12 +1,22 @@
 import React from 'react'
-
-import Layout from '../components/layout'
+import SEO from '../components/layout/seo'
+import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
+import '@reach/skip-nav/styles.css'
+import Header from '../components/layout/header'
+import Video from '../components/pages/homepage/video'
 import Hero from '../components/pages/homepage/hero'
+import '../style/global.css'
 
-const IndexPage = () => (
-  <Layout title="Home">
-    <Hero>The Americas' most magical game</Hero>
-  </Layout>
+export default ({ title, children }) => (
+  <>
+    <SkipNavLink />
+    <SEO title={title} />
+    <Video />
+    <Header title={title} absolute />
+    <Hero>The Americas' most magical game!</Hero>
+    <main>
+      <SkipNavContent />
+      {children}
+    </main>
+  </>
 )
-
-export default IndexPage
