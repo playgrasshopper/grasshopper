@@ -14,3 +14,12 @@ body {
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 }
+
+td,
+th {
+  padding: 1.5rem;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
