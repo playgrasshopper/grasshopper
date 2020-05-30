@@ -59,6 +59,7 @@ const Nav = styled.nav`
 `
 
 const MobileNav = styled.nav`
+  font-size: 1.8rem;
   ${bp({
     display: ['block', 'none'],
   })}
@@ -69,7 +70,7 @@ const MobileNav = styled.nav`
   transition: margin-top 0.5s ease-in;
   margin-left: -300px;
   margin-right: -300px;
-  padding-left: 350px;
+  padding-left: 300px;
   transform: rotate(10deg);
   border: 2px solid black;
   z-index: 1;
