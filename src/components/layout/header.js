@@ -7,6 +7,9 @@ import logo from '../../images/grasshopper-black.svg'
 import bang from '../../images/bang.svg'
 
 const Header = styled.header`
+  ${bp({
+    height: ['100px', 'auto'],
+  })}
   padding: 1rem;
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -42,10 +45,11 @@ const Nav = styled.nav`
   }
   li {
     padding: 1rem;
-    ${bp({
-      display: ['block', 'inline-block'],
-      marginRight: [0, '2rem'],
-    })}
+    display: inline-block;
+    margin-right: 2rem;
+    &.home-link {
+      display: none;
+    }
     a {
       color: black;
       font-weight: bold;
@@ -127,6 +131,9 @@ const Bang = styled(Link)`
 
 const Menu = () => (
   <ul>
+    <li className="home-link">
+      <Link to="/">Home</Link>
+    </li>
     <li>
       <Link to="/rules">The rules</Link>
     </li>
