@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'React'
 import { Container } from '../components/common/container'
 import Layout from '../components/layout'
 import PlayerList from '../components/common/player-list'

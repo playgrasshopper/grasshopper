@@ -35,6 +35,7 @@ const Nav = styled.nav`
   z-index: 1;
   background: red;
   border: 2px solid black;
+  border-bottom-width: 4px;
   transform: rotate(1.5deg);
   &.expanded {
     display: block !important;
@@ -73,6 +74,7 @@ const MobileNav = styled.nav`
   padding-left: 300px;
   transform: rotate(10deg);
   border: 2px solid black;
+  border-bottom-width: 4px;
   z-index: 1;
   background: red;
   ul {
@@ -104,7 +106,8 @@ const MobileButton = styled.button`
   font-weight: bold;
   font-size: 1.5rem;
   padding-right: 2rem;
-  right: 0;
+  right: -15px;
+  top: -15px;
   cursor: pointer;
   z-index: 10;
 `

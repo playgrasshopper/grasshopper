@@ -3,72 +3,114 @@ path: '/rules'
 title: 'The rules of Grasshopper'
 ---
 
-Run between two tripods made of sticks more times than your friends!
+Grasshopper is a non-team game that uses two tripods, two soccer balls, and a frisbee. The three principles of Grasshopper are:
 
-Play starts with the Roly Poly rolling a soccer ball to the Bashbish. Before the ball is kicked the Bashbish must throw a frisbee as far as possible in any direction. The Bashbish then kicks the ball as far as possible in any direction. Once these objects have been dispatched... run! The Bashbish runs as fast as possible between the tripods until the Fielders are able to assemble at least one object at each tripod. This completes one Hop. Now the Roly Poly is the new Bashbish, and a Fielder becomes the new Roly Poly. A round consists of one Hop per player. Typical games are played to 3 rounds, the player with the most points wins!
-
-### Defense
-
-The bash bish may at any time interfere with the soccerball. They may only touch the ball once after the ball has been touched by a defender. The Bash Bish May leave the barley to do so.
-
-### Object safety
-
-An out is achieved when the frisbee and soccer ball are under both tripods, where the ball is under one tripod, and the frisbee is is under the other. If he multiball has been played, an out is reached by affing the multiball to either tripod.
-
-If an object is in control when it is placed under a tripod, it is considered "safe" and the bash bish can not interfere with it.
-
-If one object is safe at a tripod and another object is added to the tripod, the incoming item is not considered safe until the original item is removed.
-
-## Positions
-
-- **Roly Poly** - Rolls the soccer ball to the batsman. Play starts when the Roly Poly begins to approach the batsman.
-- **Bashbish** - This is the only player on offense. The Bashbish makes the first throw of the frisbee and kicks the soccer ball. Also summons magic.
-- **Fielders** - These players retrieve the soccer ball(s) and frisbee. Their goal is to return all items to the same tripod. The Roly Poly becomes a Fielder immediately upon rolling the soccer ball. Fielders can play in one of three zones, which are as follows:
-  - **The Zola** - behind the Bashbish
-  - **The Beanie** - behind and to the left of the Rolly Polly
-  - **The Faery** - behind and to the right of the Rolly Polly
-- **Dogs** - Occasionally get in the way. This is fine.
-
-## The field
-
-The game is focused around two tripods made of sticks set up 15 paces apart. Between the two tripods there is the Throw Line. The Roly Poly must release the soccer before reaching the Throw Line. The Throw Line is located 10 paces away from the Bashbish's tripod.
-
-A diagram of the various portions of the field is below.
+1. **Fitness** - During play, everyone should be sprinting. Each hop should end with all players panting.
+2. **Equity** - Rules should ensure fairness through assigning magic points to all players. Data science should inform changes to rules to ensure better equity.
+3. **Chaos** - Each play should be unpredictable and result in utter confusion.
 
 ## Equipment
 
-One soccer ball and one frisbee are standardz with one additional soccer ball for magic. Tripods are constructed from sticks and vines. Music speaker also ideal.
+To play Grasshopper, you will need:
 
-## Scoring
+- **Two tripods** - Constructed with lashed together sticks, broken camera tripods you found in a dumpster, or any three things leaning against each other.
+- **Two soccer balls** - It is better if the two balls are different colors. Designate one soccer ball the multiball.
+- **Frisbee** - Any frisbee
 
-One point is scored per tripod visited before the tripods "die." Tripod death occurs when all objects have been returned to a tripod, and both tripods have at least one object.
+In addition, several kinds of [rare magic](#magic) require additional equipment. These are optional.
 
-A game is finished when the players are exhausted, everyone is hungry, or someone is seriously injured.
+## The playing field (pitch)
 
-For the purposes of calculating the _magic index_, a "game" is considered 3 rounds, and any game with over or under 3 rounds is calculated by divding that game by three.
+A Grasshopper pitch is anywhere indoors or outdoors that is at least 45 meters by 30 meters.
 
-At the declared end of the game, scores are added together. Highest score wins the game!
+The tripods should be placed 15 meters apart in the middle of the pitch. One of the tripods should be designated home for the bash bish. The opposite tripod should have the multiball under it. Draw a line in the ground 5 meters from the opposite tripod and 10 meters from the home tripod. This is the bowl line.
 
-## Magic
+The areas of the pitch are:
 
-Players who are playing their _first game_ of Grasshopper all start with two magic spells. These spells may be called at any time while the player is the bashbish, after the ball is kicked, and before they are out.
+- **The barley** - The area between the two tripods. The bash bish runs between the two tripods in the barley.
+- **Zola** - The area 180 degrees behind the bash bish.
+- **The beanie** - The area 180 degrees in front of the bash bish.
 
-When players wake up the next morning, whomever has the highest score has only _one_ magic spell, while the lowest-scoring player has _three_ magic spells.
+## Positions
 
-### Magic spells
+Players take turns rotating positions between:
 
-The following magic incantations can be cast at any point during play by the bashbish:
+- **Bash bish** - The only player (besides a bettlejuice) who can score during a hop. The bash bish stands at the home tripod until play begins.
+- **Fans** - (Only if needed) - Players who are awaiting return to play, who must scream and yell during play.
+- **Zola** - Fielder directly behind the bash bish. There can be multiple zolas.
+- **Right beanie** - Fielder to the bash bish's right in the beanie.
+- **Left beanie** - Fielder to the bash bish's left in the beanie.
+- **Rolly polly** - The player who rolls the soccer ball to the bash bish.
 
-- **Beetlejuice, beetlejuice, beetlejuice, [other player's name]** - After calling "Beetlejuice" thrice, the bashbish names an opponent. That opponent then tries their hardest to _prevent_ a ball or frisbee from reaching a tripod. The "juiced" player may knock down balls, slap frisbees, or otherwise confuse the other players, but may not kick the ball or throw the frisbee.
+### Four players
+
+If there are only four players, the Zola is no longer a fielder position, and the bash bish cannot kick the soccer ball or throw the frisbee behind them for the initial kick-off.
+
+### More than five players
+
+If there are more than five players, keep adding them as fielder positions until it is no longer fun, or is impossible for the bash bish to score. At that point, rotate players from Bash Bish to being the fans.
+
+Fans are required to do a steamroll if any player is brooked. They are also required to be roudy and yell a lot during play.
+
+When summer rules are in effect, then fans are required to sit in the kiddie pool.
+
+## Magic points
+
+Before play, each player's lifetime magic index must be either computed or looked up on the official Grasshopper website. A player's magic point is the mean lifetime score, derived by dividing their lifetime score by the number of games they played.
+
+The player with the _highest_ magic index gets **one** magic point. The player with the _lowest_ magic score gets **three** magic points. All other players get **two** magic points.
+
+## Play
+
+Grasshopper is played and scored using sets and hops.
+
+### Games, sets, and hops
+
+Each game of Grasshopper consists of sets of hops. Each player gets to be the bash bish, at which point they have an opportunity to score. With the exception of the beetlejuice rule, players can only score points during their hop. Once every player has been the bash bish once, a new set starts.
+
+Games can be as many sets and players would like, but you must complete any set you start. This ensures everyone has a chance to score in a set.
+
+### The hop
+
+At the start of a hop, the bash bish stands at the hope tripod, and the rolly polly stands at the opposite tripod. Once all players are in position and ready, the rolly polly must hold the soccer ball high and yell "Rolly polly!"
+
+#### Bowling
+
+The rolly polly runs towards the bash bish and must bowl the soccer ball towards the bash bish before crossing the bowl line.
+
+A bowled soccer ball must be rolled along the ground in the direction of the home tripod. It must not bounce excessively. If the bash bish decides the bowl is in a ridiculous angle or is bouncing excessively, they may call the bowl as incorrect before trying to kick it, and before the ball passes them.
+
+If the bowl is declared incorrect, and the bash bish has not already tried to kick it, then the ball is returned to the rolly polly and the hop starts over.
+
+#### Bash bish starts play
+
+The bash bish must throw the frisbee in any direction, unless there are only four players, which case they must throw it in front of the home tripod. The frisbee should be thrown before kicking the soccer ball. Once the soccer ball is touched, the bowl is considered correct.
+
+#### Scoring
+
+The bash bish must run between both tripods to score points. Every time they touch or get very close to a tripod, they get one point.
+
+#### Magic spells
+
+At any point between the time the ball is released by the rolly polly and the bash bish is out, they may use a magic point if they have one available. They have to incant a magic by yelling its name as loudly as possible. Players may not reuse magic spells more than once in a game.
+
+- **Beetlejuice** - Must be called before a fielder has touched the soccer ball. The first player to the soccer ball after calling Beetlejuice becomes "juiced." Juiced players act as defenders for the bash bish:
+  - They try to prevent the bash bish from being out.
+  - They may only kick the soccer ball only after it has been touched by another fielder.
+  - At the end of the hop, the bash bish recieves 20% of bash bish's points for that hop.
 - **Grapevine** - All players who are not the bashbish may only move by doing a grapevine dance (passing the feet side to side, one in front of the other)
-- **Multiball** - The bashbish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. That ball is now required to reach the same tripod as the main soccer ball and frisbee before the batter is considered out.
+- **Multiball** - The bash bish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. The bash bish is now not out until the multiball also reaches one of the tripods.
 
-#### Rare Magic
+##### Rare Magic
+
+Rare magic can be created by any league as long as it enhances the three core tenants of Grasshopper, and involves objects that the league found just laying around. The following rare magics have been used in prior games:
 
 - **Blue Light Special** - If a shopping cart is available, you may place it near the barley at an equilateral triangle 5 meters from the middle of the barley, with the corners of the triangle being the tripods. If Blue Light Special is called, the defense can not touch the soccer ball, and must instead push the cart to the soccer ball, place it in the the cart, and then roll the cart to a tripod.
 
-## Details
+#### Out
 
-- Objects must remain in the square around the triood. Players may not intentionally remove them.
-- When ball is bowled outside tripod boundary, the bashbish can call a re-bowl, kick it and run as normal, or let it pass and simply begin running.
--
+The hop proceeds until the bash bish is out. To get a bash bish out, the fielders must get the frisbee under one tripod, and the soccer ball in the other. If multiball was called, the multiball must also arrive to one of the tripods.
+
+If either the frisbee or soccer ball is under control of a fielder when it is placed under a tripod, then it is considered "locked." Locked balls or frisbees cannot be moved by the bash bish or beetlejuice. Multiballs are always "locked" and never have to be moved once arriving at a tripod.
+
+If a locked ball or frisbee is under a tripod, and the other object is brought to the tripod, the incoming item is not considered locked until the original item is removed.
