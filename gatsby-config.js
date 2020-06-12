@@ -7,6 +7,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,7 +16,13 @@ module.exports = {
         name: `content`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: `data`,
+      },
+    },
     {
       resolve: `gatsby-source-airtable`,
       options: {
