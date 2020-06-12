@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Comic Neue', cursive;
+}
+
+body {
+  margin: 0;
+  font: normal 175%/1.5 'system-ui', '-apple-system', 'BlinkMacSystemFont',
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+td,
+th {
+  padding: 1.5rem;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
