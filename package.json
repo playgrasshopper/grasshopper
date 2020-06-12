@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "grasshopper",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The America's most magical game.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Grasshopper <play@playgrasshopper.org>",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
