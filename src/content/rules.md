@@ -92,11 +92,11 @@ The bash bish must run between both tripods to score points. Every time they tou
 
 #### Magic spells
 
-At any point between the time the ball is released by the rolly polly and the bash bish is out, they may use a magic point if they have one available. They have to incant a magic by yelling its name as loudly as possible. Players may not reuse magic spells more than once in a game.
+At any point after the soccer ball has been kicked and the frisbee was thrown, the bash bish may use a magic point if they have one available. They have to incant a magic by yelling its name as loudly as possible. Players may not reuse magic spells more than once in a game.
 
 - **Beetlejuice** - Must be called before a fielder has touched the soccer ball. The first player to the soccer ball after calling Beetlejuice becomes "juiced." Juiced players act as defenders for the bash bish:
   - They try to prevent the bash bish from being out.
-  - They may only kick the soccer ball only after it has been touched by another fielder.
+  - They may only kick the soccer ball, or throw the frisbee, only after it has been touched by another fielder.
   - At the end of the hop, the bash bish recieves 20% of bash bish's points for that hop.
 - **Grapevine** - All players who are not the bashbish may only move by doing a grapevine dance (passing the feet side to side, one in front of the other)
 - **Multiball** - The bash bish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. The bash bish is now not out until the multiball also reaches one of the tripods.
@@ -107,10 +107,25 @@ Rare magic can be created by any league as long as it enhances the three core te
 
 - **Blue Light Special** - If a shopping cart is available, you may place it near the barley at an equilateral triangle 5 meters from the middle of the barley, with the corners of the triangle being the tripods. If Blue Light Special is called, the defense can not touch the soccer ball, and must instead push the cart to the soccer ball, place it in the the cart, and then roll the cart to a tripod.
 
+#### Defense
+
+The bash bish may play defense during their hop by kicking the soccer ball, multiball, or throwing the frisbee. The bash bish may:
+
+- Kick the main soccer ball after it has had contact with a fielder.
+- Throw the frisbee after it has had contact with a fielder. The bash bish may intercept tosses or pick the frisbee up off the ground.
+
+The bash bish may **not**:
+
+- Touch the soccerball or frisbee when it is under the tripod.
+
 #### Out
 
-The hop proceeds until the bash bish is out. To get a bash bish out, the fielders must get the frisbee under one tripod, and the soccer ball in the other. If multiball was called, the multiball must also arrive to one of the tripods.
+The hop proceeds until the bash bish is out. To get a bash bish out, the fielders must get the frisbee under one tripod, and the soccer ball in the other. If multiball was used, the multiball must also be placed under one of the tripods.
 
-If either the frisbee or soccer ball is under control of a fielder when it is placed under a tripod, then it is considered "locked." Locked balls or frisbees cannot be moved by the bash bish or beetlejuice. Multiballs are always "locked" and never have to be moved once arriving at a tripod.
+#### Ultimate frisbee underhand rule
 
-If a locked ball or frisbee is under a tripod, and the other object is brought to the tripod, the incoming item is not considered locked until the original item is removed.
+Any player who has considerable history of playing ultimate frisbee, or is generally very good at throwing the frisbee, that player may only throw the frisbee upside-down (i.e. "the hammer") if they are the bash bish.
+
+#### Object safety
+
+When any frisbee or soccer ball is in the tripod, it is considered safe. The bash bish may not touch or interfere with anything in the tripod, even if it is in motion.
