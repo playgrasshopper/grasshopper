@@ -100,6 +100,7 @@ At any point after the soccer ball has been kicked and the frisbee was thrown, t
   - At the end of the hop, the bash bish recieves 20% of bash bish's points for that hop.
 - **Grapevine** - All players who are not the bashbish may only move by doing a grapevine dance (passing the feet side to side, one in front of the other)
 - **Multiball** - The bash bish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. The bash bish is now not out until the multiball also reaches one of the tripods.
+- **Ultimate** - The frisbee must be tossed between all the fielders seven times before it can be placed under a tripod. If the frisbee is dropped, then the counting has to start over again.
 
 ##### Rare Magic
 
