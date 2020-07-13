@@ -100,7 +100,7 @@ At any point after the soccer ball has been kicked and the frisbee was thrown, t
   - At the end of the hop, the bash bish recieves 20% of bash bish's points for that hop.
 - **Grapevine** - All players who are not the bashbish may only move by doing a grapevine dance (passing the feet side to side, one in front of the other)
 - **Multiball** - The bash bish, upon reaching the opposite tripod, can pick up the extra soccer ball and kick it in any direction. The bash bish is now not out until the multiball also reaches one of the tripods.
-- **Ultimate** - The frisbee must be tossed between all the fielders seven times before it can be placed under a tripod. If the frisbee is dropped, then the counting has to start over again.
+- **Ultimate** - The frisbee must be tossed between fielders seven times without being dropped, and having been tossed to all players at leasst once unless there are over seven fielders. If the frisbee is dropped, then the counting has to start over again. Even after seven passes, the frisbee must still not be dropped until it is under a tripod. If the fielders wish to move a safe frisbee from one tripod to another, they must pass it between each other or directly to the opposite tripod without dropping it. Dropping a frisbee in the middle of transfer between tripods restarts the seven passes.
 
 ##### Rare Magic
 
@@ -130,3 +130,17 @@ Any player who has considerable history of playing ultimate frisbee, or is gener
 #### Object safety
 
 When any frisbee or soccer ball is in the tripod, it is considered safe. The bash bish may not touch or interfere with anything in the tripod, even if it is in motion.
+
+## Calling bullshit & discussion of rules
+
+At any point during play, any player may yell "bullshit" if they truly believe that rules or sprit of the game have been broken. This pauses gameplay while players discuss. During a bullshit pause, all players must do deep squats to keep their leg muscles warm. If a consensus is reached, the ball, frisbee, and other players must move back to the latest point of legal play and resume.
+
+Calling bullshit multiple times, or in an unsportspersonlike manner, is discouraged, and other players may respond by calling "unnecessary bullshit."
+
+### Less talk more rock
+
+During any discussion of the rules or fine points of Grasshopper, a player may call "Less talk, more rock." This pauses discussion about rules until the hop is over.
+
+## Dancing
+
+At any time during play, or after play, or before play, players may dance. While a player is the bash bish, on what the group considers the last hop, they must dance while waiting for the rolly-polly to bowl. Each players who dances, which is required, recieves an extra point for that hop.
