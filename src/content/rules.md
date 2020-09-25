@@ -9,6 +9,8 @@ Grasshopper is a non-team game that uses two tripods, two soccer balls, and a fr
 2. **Equity** - Rules should ensure fairness through assigning magic points to all players. Data science should inform changes to rules to ensure better equity.
 3. **Chaos** - Each play should be unpredictable and result in utter confusion.
 
+Due to principle 3, there will sometimes be rule disputes. The 3 principles and the rules below should be your guide in resolving any dispute. 
+
 ## Equipment
 
 To play Grasshopper, you will need:
