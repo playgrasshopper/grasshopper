@@ -25,13 +25,13 @@ In addition, several kinds of [rare magic](#magic) require additional equipment.
 
 A Grasshopper pitch is anywhere indoors or outdoors that is at least 45 meters by 30 meters.
 
-The tripods should be placed 15 meters apart in the middle of the pitch. One of the tripods should be designated home for the bash bish. The opposite tripod should have the multiball under it. Draw a line in the ground 5 meters from the opposite tripod and 10 meters from the home tripod. This is the bowl line.
+The tripods should be placed 15 meters apart in the middle of the pitch. One of the tripods should be designated home. The opposite tripod should have the multiball under it. Draw a line in the ground 5 meters from the opposite tripod and 10 meters from the home tripod. This is the bowl line.
 
 The areas of the pitch are:
 
-- **The barley** - The area between the two tripods. The bash bish runs between the two tripods in the barley.
-- **Zola** - The area 180 degrees behind the bash bish.
-- **The beanie** - The area 180 degrees in front of the bash bish.
+- **The Barley** - The area between the two tripods. The bash bish runs between the two tripods in the barley.
+- **The Zola** - The area 180 degrees behind the bash bish.
+- **The Beanie** - The area 180 degrees in front of the bash bish.
 
 ## Positions
 
@@ -51,8 +51,6 @@ If there are only four players, the Zola is no longer a fielder position, and th
 ### More than five players
 
 If there are more than five players, keep adding them as fielder positions until it is no longer fun, or is impossible for the bash bish to score. At that point, rotate players from Bash Bish to being the fans.
-
-Fans are required to do a steamroll if any player is brooked. They are also required to be roudy and yell a lot during play.
 
 When summer rules are in effect, then fans are required to sit in the kiddie pool.
 
@@ -124,6 +122,8 @@ The bash bish may **not**:
 #### Out
 
 The hop proceeds until the bash bish is out. To get a bash bish out, the fielders must get the frisbee under one tripod, and the soccer ball in the other. If multiball was used, the multiball must also be placed under one of the tripods.
+
+A player can be out if they are "brooked." This occurs when their initial soccer ball kick is caught by the fielder (before the ball bounces). All players and fans are required to do a steamroll if any player is brooked. They are also required to be roudy and yell a lot during play.
 
 #### Ultimate frisbee underhand rule
 
