@@ -13,6 +13,8 @@ jobs:
           persist-credentials: false
 
       - name: Install and Build 🔧
+        env:
+          AIRTABLE_KEY: ${{ secrets.AIRTABLE_KEY }}
         run: |
           yarn install
           yarn build
