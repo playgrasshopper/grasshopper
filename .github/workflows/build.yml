@@ -1,5 +1,8 @@
 name: Build site
 on:
+  push:
+    branches:
+      - gatsby
   schedule:
     - cron: '40 * * * *'
 
