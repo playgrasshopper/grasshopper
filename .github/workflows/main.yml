@@ -1,8 +1,7 @@
 name: Generate scores
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
   trigger:
