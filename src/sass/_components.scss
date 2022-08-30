@@ -31,11 +31,17 @@ header {
   h1 {
     width: 100%;
     font-size: 1rem;
+    span {
+      display: inline;
+    }
     @media screen and (min-width: 768px) {
       width: 85%;
       margin: 0;
       font-size: 2rem;
       padding-left: 1rem;
+      span {
+        display: none;
+      }
     }
   }
   img {
@@ -47,11 +53,23 @@ header {
   width: 100%;
   position: relative;
   background: $secondaryLightColor;
-  height: 800px;
+  height: 70vh;
   overflow: hidden;
   display: none;
+  margin-bottom: 4rem;
   @media screen and (min-width: 768px) {
     display: block;
+  }
+  h2 {
+    display: inline-block;
+    background: $logoRedColor;
+    color: $lightColor;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 30px;
+
+    bottom: 30px;
+    z-index: 100;
   }
   video {
     position: absolute;
