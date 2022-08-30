@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  margin: 0 1rem;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background: $logoRedColor;
+  color: $lightColor;
+  padding: 1rem 0;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  a {
+    color: $lightColor;
+  }
+  .logo {
+    width: 20%;
+    @media screen and (min-width: 768px) {
+      flex: 1;
+      width: 15%;
+    }
+  }
+  h1 {
+    width: 100%;
+    font-size: 1rem;
+    @media screen and (min-width: 768px) {
+      width: 85%;
+      margin: 0;
+      font-size: 2rem;
+      padding-left: 1rem;
+    }
+  }
+  img {
+    border: 2px solid $logoBlueColor;
+  }
+}
+
+.home-video {
+  width: 100%;
+  position: relative;
+  background: $secondaryLightColor;
+  height: 800px;
+  overflow: hidden;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  video {
+    position: absolute;
+    bottom: 20;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}

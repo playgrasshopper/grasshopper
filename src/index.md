@@ -1,6 +1,6 @@
 ---
-path: '/rules'
-title: 'The rules of Grasshopper'
+title: Grasshopper
+layout: layouts/default.njk
 ---
 
 Grasshopper is a non-team game that uses two tripods, two soccer balls, and a frisbee. The three principles of Grasshopper are:
@@ -8,6 +8,10 @@ Grasshopper is a non-team game that uses two tripods, two soccer balls, and a fr
 1. **Fitness** - During play, everyone should be sprinting. Each hop should end with all players panting.
 2. **Equity** - Rules should ensure fairness through assigning magic points to all players. Data science should inform changes to rules to ensure better equity.
 3. **Chaos** - Each play should be unpredictable and result in utter confusion.
+
+## Introductory video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TAp-Zok8Ej4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Equipment
 
