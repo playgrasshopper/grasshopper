@@ -11,6 +11,10 @@ Grasshopper is a non-team game that uses two tripods, two soccer balls, and a fr
 
 Due to principle 3, there will sometimes be rule disputes. The 3 principles and the rules below should be your guide in resolving any dispute.
 
+## Introductory video
+
+<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/TAp-Zok8Ej4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Equipment
 
 To play Grasshopper, you will need:
