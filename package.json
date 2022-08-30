@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
+    "deploy:cname": "echo 'playgrasshopper.org' > ./public/CNAME",
     "deploy": "gh-pages -d public"
   },
   "repository": {
