@@ -60,7 +60,7 @@ When summer rules are in effect, then fans are required to sit in the kiddie poo
 
 ## Magic points
 
-Before play, each player's lifetime magic index must be either computed or looked up on the official Grasshopper website. A player's magic point is the mean lifetime score, derived by dividing their lifetime score by the number of games they played.
+Before play, each player's lifetime magic index must be either computed. A player's magic index is the mean lifetime score, derived by dividing their lifetime score by the number of games they played.
 
 The player with the _highest_ magic index gets **one** magic point. The player with the _lowest_ magic score gets **three** magic points. All other players get **two** magic points.
 
